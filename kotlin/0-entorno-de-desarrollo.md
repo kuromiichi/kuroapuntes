@@ -26,7 +26,7 @@ Otro IDE para Kotlin es Android Studio, pero este está orientado al desarrollo 
 
 ## Cómo empezar a desarrollar en Kotlin
 
-Para desarrollar en Kotlin, empezaremos por descargar IntelliJ IDEA. Puedes descargarlo en [este enlace](https://www.jetbrains.com/es-es/idea/download/?section=mac), o si eres guay y usas Linux o Mac, puedes buscarlo en tu gestor de paquetes favorito.
+Para desarrollar en Kotlin, empezaremos por descargar IntelliJ IDEA. Puedes descargarlo en [este enlace](https://www.jetbrains.com/es-es/idea/download), o si eres guay y usas Linux o Mac, puedes buscarlo en tu gestor de paquetes favorito.
 
 Es importante descargar la versión Community Edition, ya que es la versión gratuita de IntelliJ IDEA y yo no te voy a pagar una licencia.
 
