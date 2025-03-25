@@ -32,4 +32,6 @@ Es importante descargar la versión Community Edition, ya que es la versión gra
 
 Una vez instalado, abre IntelliJ y configúralo como te dé la gana. Si quieres consejos pregúntame, que me he tirado demasiadas horas configurando IDEs porque me aburro.
 
+Kotlin usa el SDK de Java, por lo que también tendrás que descargarlo. Hay muchas versiones del SDK, pero nos vamos a decantar por la versión 21 de [Liberica](https://bell-sw.com/pages/downloads/#jdk-21-lts) o [Temurin](https://adoptium.net/es/temurin/releases/). Si eres guay, puedes buscarlo en el gestor de paquetes de tu elección.
+
 A continuación, descarga Git desde [este enlace](https://git-scm.com/downloads) y sigue las instrucciones para instalarlo, o si eres guay, busca Git en tu gestor de paquetes favorito.
