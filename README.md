@@ -9,6 +9,7 @@
   - [Lenguajes de programación](#lenguajes-de-programación)
     - [¿No sabes qué lenguaje usar?](#no-sabes-qué-lenguaje-usar)
     - [¿Qué lenguaje usará kuromi durante las clases?](#qué-lenguaje-usará-kuromi-durante-las-clases)
+    - [¿Qué IDE debería usar?](#qué-ide-debería-usar)
 
 ## Introducción
 
@@ -52,3 +53,7 @@ Si no sabes qué lenguaje usar, no te preocupes, puedes usar cualquiera de ellos
 ### ¿Qué lenguaje usará kuromi durante las clases?
 
 Durante mis clases usaré Kotlin, pero te puedes apoyar en los apuntes específicos del lenguaje que decidas usar. Si tienes alguna duda sobre una particularidad de tu lenguaje de preferencia, puedes preguntar sin problemas.
+
+### ¿Qué IDE debería usar?
+
+Los apuntes de cada lenguaje recomiendan el IDE más apropiado para el lenguaje en cuestión. Sin embargo, en caso de asistir a clases o cursos ajenos deberías usar el IDE que recomienden allí. Al final acabarás usando el IDE que te guste (que probablemente será el que te diga yo), pero hay que saber adaptarse, no vaya a ser que te echen del trabajo por no querer usar Eclipse (sería mi caso xd).
