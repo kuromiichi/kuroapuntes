@@ -150,7 +150,7 @@ Para nombrar las variables, debemos seguir las reglas de estilo de cada lenguaje
 
 ```java
 int variable = 10; // Variable mutable
-final int CONSTANTE = 10; // Variable inmutable
+final int CONSTANTE = 10; // Constante
 ```
 
 ## Programación estructurada

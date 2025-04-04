@@ -147,8 +147,10 @@ Para nombrar las variables, debemos seguir las reglas de estilo de cada lenguaje
 
 ```python
 variable = 10  # Variable mutable
-CONSTANTE = 10  # Variable inmutable
+CONSTANTE = 10  # Constante
 ```
+
+Python no tiene el concepto de constantes como tal, así que es importante el uso de las mayúsculas en el nombre de las constantes para indicar que no deben ser modificadas. ¿Se pueden modificar? Sí. ¿Te voy a mirar mal? También.
 
 ## Programación estructurada
 
