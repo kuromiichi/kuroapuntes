@@ -149,8 +149,8 @@ Para almacenar los datos en memoria, debemos declarar una variable, que es un es
 Para nombrar las variables, debemos seguir las reglas de estilo de cada lenguaje. En Java, las variables se nombrarán usando lowerCamelCase, y las constantes usando UPPER_SNAKE_CASE.
 
 ```java
-int variable = 10 // Variable mutable
-final int CONSTANTE = 10 // Variable inmutable
+int variable = 10; // Variable mutable
+final int CONSTANTE = 10; // Variable inmutable
 ```
 
 ## Programación estructurada
