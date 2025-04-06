@@ -338,25 +338,29 @@ public class Main {
 
 Al declarar una variable se debe tener en cuenta el ámbito en el que será válida. Por ejemplo, una variable declarada dentro de un método solo podrá ser usada dentro del mismo. Una variable declarada como global (declarada como top-level, es decir, fuera de un método o clase) puede ser usada en cualquier parte del programa.
 
+Por cierto, Java no tiene variables declaradas en top-level ya que todo el código debe estar dentro de una clase. En su lugar se usa la palabra reservada `static` para declarar variables globales (no son exactamente eso pero sirven para lo que queremos).
+
 ```java
-// Esta variable es global y puede ser usada en cualquier parte del programa
-int variableGlobal = 10;
+public class Main {
+    // Esta variable es global y puede ser usada en cualquier parte del programa
+    public static int variableGlobal = 10;
 
-public static void main(String[] args) {
-    // Esta variable es local y solo puede ser usada dentro del método main
-    int variableLocal = 5;
+    public static void main(String[] args) {
+        // Esta variable es local y solo puede ser usada dentro del método main
+        int variableLocal = 5;
 
-    while (variableLocal > 0) {
-        // Esta variable es local y solo puede ser usada dentro del bucle while
-        int variableWhile = 3;
-        variableLocal--;
+        while (variableLocal > 0) {
+            // Esta variable es local y solo puede ser usada dentro del bucle while
+            int variableWhile = 3;
+            variableLocal--;
+        }
+
+        variableWhile = 4; // Error: variableWhile no es visible fuera del bucle
     }
 
-    variableWhile = 4; // Error: variableWhile no es visible fuera del bucle
-}
-
-public static void otroMetodo() {
-    variableLocal = 25; // Error: variableLocal no es visible fuera del método main
+    public static void otroMetodo() {
+        variableLocal = 25; // Error: variableLocal no es visible fuera del método main
+    }
 }
 ```
 
